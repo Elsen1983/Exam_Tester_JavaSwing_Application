@@ -1,0 +1,447 @@
+QUESTIONNUMBER 40
+
+QUESTION 1
+0
+The inputs for developing a test plan are taken from
+Project plan
+Business plan
+Support plan
+None of the above
+---
+Answer: A
+---
+
+QUESTION 2
+0
+To test a function, the programmer has to write a , which calls the function andpasses it the test data.
+Stub 
+Driver 
+Proxy
+None of the above
+---
+Answer: B
+---
+
+QUESTION 3
+0
+Which of the following is not a static testing technique
+Error guessing
+Walkthrough
+Data flow analysis
+Inspections
+---
+Answer: A
+---
+
+QUESTION 4
+0
+Which of the following statements about component testing is not true?
+Component testing should be performed by development
+Component testing is also known as isolation or module testing
+Component testing should have completion criteria planned
+Component testing does not involve regression testing
+---
+Answer: D
+---
+
+QUESTION 5
+0
+Inspections can find all the following except
+Variables not defined in the code
+Spelling and grammar faults in the documents
+Requirements that have been omitted from the design documents
+How much of the code has been covered
+---
+Answer: D
+---
+
+QUESTION 6
+0
+Which of the following is not a characteristic for Testability?
+Operability
+Observability
+Simplicity
+Robustness
+---
+Answer: D
+---
+
+QUESTION 7
+0
+Software testing accounts to what percent of software development costs?
+10-20
+40-50
+70-80
+5-10
+---
+Answer: B
+---
+
+QUESTION 8
+0
+Equivalence partitioning is:
+A black box testing technique used only by developers
+A black box testing technique than can only be used during system testing
+A black box testing technique appropriate to all levels of testing
+A white box testing technique appropriate for component testing
+---
+Answer: C
+---
+
+QUESTION 9
+0
+If an expected result is not specified then:
+We cannot run the test
+It may be difficult to repeat the test
+It may be difficult to determine if the test has passed or failed
+We cannot automate the user inputs
+---
+Answer: C
+---
+
+QUESTION 10
+0
+How much testing is enough
+This question is impossible to answer
+The answer depends on the risks for your industry, contract and special requirements
+The answer depends on the maturity of your developers
+The answer should be standardized for the software development industry
+---
+Answer: B
+---
+
+QUESTION 11
+0
+The purpose of requirement phase is
+To freeze requirements
+To understand user needs
+To define the scope of testing
+All of the above
+---
+Answer: D
+---
+
+QUESTION 12
+0
+Which of these can be successfully tested using Loop Testing methodology?
+Simple Loops
+Nested Loops
+Concatenated Loops
+All of the above
+---
+Answer: D
+---
+
+QUESTION 13
+0
+Cyclomatic Complexity method comes under which testing method.
+White box
+Black box
+Green box
+Yellow box
+---
+Answer: A
+---
+
+QUESTION 14
+0
+A reliable system will be one that:
+Is unlikely to be completed on schedule
+Is unlikely to cause a failure
+Is likely to be fault-free
+Is likely to be liked by the users
+---
+Answer: B
+---
+
+QUESTION 15
+0
+Which, in general, is the least required skill of a good tester?
+Being diplomatic
+Able to write software
+Having good attention to detail
+Able to be relied on
+---
+Answer: B
+---
+
+QUESTION 16
+0
+A regression test:
+Will always be automated
+Will help ensure unchanged areas of the software have not been affected
+Will help ensure changed areas of the software have not been affected
+Can only be run during user acceptance testing
+---
+ANSWER: B
+---
+
+QUESTION 17
+0
+Function/Test matrix is a type of
+Interim Test report
+Final test report
+Project status report
+Management report
+---
+Answer: C
+---
+
+QUESTION 18
+0
+The process starting with the terminal modules is called:
+Top-down integration
+Bottom-up integration
+None of the above
+Module integration
+---
+Answer: B
+---
+
+QUESTION 19
+0
+Verification is:
+Checking that we are building the right system
+Checking that we are building the system right
+Performed by an independent test team
+Making sure that it is what the user really wants
+---
+Answer: B
+---
+
+QUESTION 20
+0
+The difference between re-testing and regression testing is
+Re-testing is running a test again; regression testing looks for unexpected side effects
+Re-testing looks for unexpected side effects; regression testing is repeating those tests
+Re-testing is done after faults are fixed; regression testing is done earlier
+Re-testing uses different environments, regression testing uses the same environment
+Re-testing is done by developers, regression testing is done by independent testers
+Answer: A
+---
+
+QUESTION 21
+0
+Testing should be stopped when:
+All the planned tests have been run
+Time has run out
+All faults have been fixed correctly
+Both A. and C.
+I depends on the risks for the system being tested
+Answer: E
+---
+
+QUESTION 22
+0
+Which of the following is the main purpose of the integration strategy for integration testing
+in the small?
+To ensure that all of the small modules are tested adequately
+To ensure that the system interfaces to other systems and networks
+To specify which modules to combine when and how many at once
+To ensure that the integration testing can be performed by a small team
+To specify how the software should be divided into modules
+Answer: C
+---
+
+QUESTION 23
+0
+Which of the following is NOT part of configuration management:
+Status accounting of configuration items
+Auditing conformance to ISO9001
+Identification of test versions
+Record of changes to documentation over time
+controlled library access
+Answer: B
+---
+
+QUESTION 24
+24
+Regression testing should be performed:
+v & w are true, x – z are false
+w, x & y are true, v & z are false
+w & y are true, v, x &z are false
+w is true, v, x y and z are false
+All of the above are true
+Answer: C
+---
+
+QUESTION 25
+0
+A tool that supports traceability, recording of incidents or scheduling of tests is called:
+A dynamic analysis tool
+A test execution tool
+A debugging tool
+A test management tool
+A configuration management tool
+Answer: E
+---
+
+QUESTION 26
+0
+The cost of fixing a fault:
+Is not important
+Increases as we move the product towards live use
+Decreases as we move the product towards live use
+Is more expensive if found in requirements than functional design
+Can never be determined
+Answer: B
+---
+
+QUESTION 27
+0
+Order numbers on a stock control system can range between 10000 and 99999 inclusive.
+Which of the following inputs might be a result of designing tests for only valid equivalence classes and valid boundaries:
+1000, 5000, 99999
+9999, 50000, 100000
+10000, 50000, 99999
+10000, 99999
+9999, 10000, 50000, 99999, 10000
+Answer: C
+---
+
+QUESTION 28
+0
+When what is visible to end-users is a deviation from the specific or expected behavior, this is called:
+An error
+A fault
+A failure
+A defect
+A mistake
+Answer: C
+---
+
+QUESTION 29
+29
+Which expression best matches the following characteristics or review processes:
+s = 4, t = 3, u = 2 and 5, v = 1
+s = 4 and 5, t = 3, u = 2, v = 1
+s = 1 and 5, t = 3, u = 2, v = 4
+s = 5, t = 4, u = 3, v = 1 and 2
+s = 4 and 5, t = 1, u = 2, v = 3
+Answer: B
+---
+
+QUESTION 30
+30
+Given the following:
+1 test for statement coverage, 1 for branch coverage
+1 test for statement coverage, 2 for branch coverage
+1 test for statement coverag3 for branch coverage
+2 tests for statement coverage, 2 for branch coverage
+2 tests for statement coverage, 3 for branch coverage
+Answer: B
+---
+
+QUESTION 31
+0
+Test managers should not:
+Report on deviations from the project plan
+Sign the system off for release
+Re-allocate resource to meet original plans
+Rise incidents on faults that they have found
+Provide information for risk analysis and quality improvement
+Answer: C
+---
+
+QUESTION 32
+0
+Which of the following is NOT part of system testing:
+Business process-based testing
+Performance, load and stress testing
+Requirements-based testing
+Usability testing
+Top-down integration testing
+Answer: E
+---
+
+QUESTION 33
+0
+When a new testing tool is purchased, it should be used first by:
+A small team to establish the best way to use the tool
+Everyone who may eventually have some use for the tool
+The independent testing team
+The managers to see what projects it should be used in
+The vendor contractor to write the initial scripts
+Answer: A
+---
+
+QUESTION 34
+0
+Which of the following is not part of performance testing:
+Measuring response time
+Measuring transaction rates
+Recovery testing
+Simulating many users
+Generating many transactions
+Answer: C
+---
+
+QUESTION 35
+0
+What is the purpose of test completion criteria in a test plan:
+To know when a specific test has finished its execution
+To ensure that the test case specification is complete
+To set the criteria used in generating test inputs
+To know when test planning is complete
+To plan when to stop testing
+Answer: E
+---
+
+QUESTION 36
+36
+Given the following code, which is true:
+1 test for statement coverage, 3 for branch coverage
+2 tests for statement coverage, 2 for branch coverage
+2 tests for statement coverag3 for branch coverage
+3 tests for statement coverage, 3 for branch coverage
+3 tests for statement coverage, 2 for branch coverage
+Answer: B
+---
+
+QUESTION 37
+0
+Unreachable code would best be found using:
+Code reviews
+Code inspections
+A coverage tool
+A test management tool
+A static analysis tool
+Answer: A
+---
+
+QUESTION 38
+0
+What information need not be included in a test incident report:
+How to fix the fault
+How to reproduce the fault
+Test environment details
+Severity, priority
+The actual and expected outcomes
+Answer: A
+---
+
+QUESTION 39
+0
+Which of the following is NOT included in the Test Plan document of the Test Documentation Standard:
+Test items (i.software versions)
+What is not to be tested
+Test environments
+Quality plans
+Schedules and deadlines
+Answer: D
+---
+
+QUESTION 40
+0
+IEEE 829 test plan documentation standard contains all of the following except:
+Test items
+Test deliverables
+Test tasks
+Test environment
+Test specification
+Answer: E
+---
+
+
+Tuesday, 23 February 2016
+ISTQB Foundation Sample Question Paper No. 20

@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="ExamTesterApp">
+    <output-path>$PROJECT_DIR$/classes/artifacts/ExamTesterApp</output-path>
+    <root id="root">
+      <element id="archive" name="ExamTesterApp.jar">
+        <element id="module-output" name="ExamTesterApp" />
+      </element>
+    </root>
+  </artifact>
+</component>

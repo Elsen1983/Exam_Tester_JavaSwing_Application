@@ -1,0 +1,109 @@
+QUESTIONNUMBER 20
+
+QUESTION 1
+0Which of the following is not decided in the test-planning phase..?  Schedules and deliverables Hardware and software Entry and exit criteria Types of test cases 
+---
+Answer: D
+
+QUESTION 2
+0
+What is the concept of introducing a small change to the program and having theeffects of that change show up in some test..?  Introducing mutations Performance testing A mutation error Debugging a program 
+---
+Answer: A
+
+QUESTION 3
+0Which is the best definition of complete testing..? You have discovered every bug in the program You have tested every statement, branch, and combination of branches in the program You have reached the scheduled ship date You have completed every test in the test plan 
+---
+Answer: C
+
+QUESTION 4
+0
+Security falls under..? Compliance testing Disaster testing Verifying compliance to rules Functional testing Ease of operations 
+Answer: A
+
+QUESTION 5
+0
+What if the project isn't big enough to justify extensive testing..? Use automation tool for testing Use risk based analysis to find out which areas need to be tested Both a and b None of the above 
+---
+Answer: B
+
+QUESTION 6
+0Complete statement and branch coverage means..?That you have tested every statement in the program That you have tested every statement and every branch in the program That you have tested every IF statement in the program That you have tested every combination of values of IF statements in the program 
+---
+Answer: B
+QUESTION 7
+0
+In the MASPAR case study..? Security failures were the result of untested parts of code The development team achieved complete statement and branch coverage but missed a serious bug in the MASPAR operating system An error in the code was so obscure that you had to test the function with almost every input value to find its two special-case failures All the above 
+---
+Answer: C
+QUESTION 8
+0
+Which is not in sequence in 11 Step Software Testing process..? Assess development plan and status Develop the test plan Test software design Test software requirement 
+---
+Answer: C
+
+QUESTION 9
+0
+Important consequences of the impossibility of complete testing are ..? We can never be certain that the program is bug free We have no definite stopping point for testing, which makes it easier for some managers to argue for very little testing We have no easy answer for what testing tasks should always be required, because every task takes time that could be spent on other high importance tasks All of the above 
+---
+Answer: D
+
+QUESTION 10
+0
+Tools like change Man, Clear case are used as..? Functional automation tools Performance testing tools Configuration management tools None of the above 
+---
+Answer: C
+
+QUESTION 11
+0What do you mean by “Having to say NO”..?No, the problem is not with testers No, the software is not ready for production Both a & b None of the above 
+---
+Answer: B
+
+QUESTION 12
+0
+The selection of test cases for regression testing..? Requires knowledge on the bug fixes and how it affect the system Includes the area of frequent defects Includes the area which has undergone many/recent code changes All of the above 
+---
+Answer: D
+
+QUESTION 13
+0
+What are the key features to be concentrated upon when doing a testing forworld wide web sites ..? Interaction between html pages Performance on the client side Security aspects All of the above 
+---
+Answer: D
+
+QUESTION 14
+0
+What if the project isn't big enough to justify extensive testing..?  Use risk based analysis to find out which areas need to be tested Use automation tool for testing Both a and b None of the above 
+---
+Answer: A
+
+QUESTION 15
+0
+Who is responsible for conducting test readiness review..? Project Manager Test Engineer Test Manager None of the above 
+---
+Answer: C
+
+QUESTION 16
+0
+Faults found by users are due to..? Poor quality software Poor software and poor testing Bad luck Insufficient time for testing 
+---
+Answer: B
+QUESTION 17
+0
+Which of the following is the odd one out..? White box Glass box Structural Functional 
+---
+Answer: D
+
+QUESTION 18
+0
+When what is visible to end-users is a deviation from the specific or expected behavior, this is called..? An error A fault A failure A defect A mistake
+Answer: C
+
+QUESTION 19
+0
+Which of the following is NOT part of configuration management..? Status accounting of configuration items Auditing conformance to ISO9001 Identification of test versions Record of changes to documentation over time Controlled library access 
+Answer: B
+
+QUESTION 20
+0
+A tool that supports traceability, recording of incidents or scheduling of tests is called..? A dynamic analysis tool A test execution tool A debugging tool A test management tool A configuration management tool Answer: D

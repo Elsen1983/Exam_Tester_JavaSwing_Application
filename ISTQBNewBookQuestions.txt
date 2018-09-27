@@ -1,0 +1,831 @@
+QUESTIONNUMBER 70
+
+QUESTION 1
+0
+A company recently purchased a commercial off-the-shelf application to automate their bill-paying process. They now plan to run an acceptance test against the package prior to putting it into production. Which of the following is their most likely reason for testing?
+a. To build confidence in the application. 
+b. To detect bugs in the application. 
+c. To gather evidence for a lawsuit. 
+d. To train the users. 
+e. ---
+Answer: A
+1.1.3
+
+QUESTION 2
+0
+According to the ISTQB Glossary, the word 'bug' is synonymous with which of the following words? 
+a. Incident 
+b. Defect 
+c. Mistake 
+d. Error 
+e. ---
+Answer: B
+1.1.5
+
+QUESTION 3
+0
+According to the ISTQB Glossary, a risk relates to which of the following? 
+a. Negative feedback to the tester. 
+b. Negative consequences that will occur. 
+c. Negative consequences that could occur. 
+d. Negative consequences for the test object. 
+e. ---
+Answer: C
+1.1.5
+
+QUESTION 4
+0
+Ensuring that test design starts during the requirements definition phase is important to enable which of the following test objectives? 
+a. Preventing defects in the system. 
+b. Finding defects through dynamic testing. 
+c. Gaining confidence in the system. 
+d. Finishing the project on time. 
+e. ---
+Answer: A
+1.2.1
+
+
+QUESTION 5
+0
+A test team consistently finds between 90% and 95% of the defects present in the system under test. While the test manager understands that this is a good defect-detection percentage for her test team and industry, senior management and executives remain disappointed in the test group, saying that the test team misses too many bugs. Given that the users are generally happy with the system and that the failures which have occurred have generally been low impact, which of the following testing principles is most likely to help the test manager explain to these managers and executives why some defects are likely to be missed? 
+a. Exhaustive testing is impossible 
+b. Defect clustering 
+c. Pesticide paradox 
+d. Absence-of-errors fallacy 
+e. ---
+Answer: A
+1.1.6 and 1.2.1
+
+
+QUESTION 6
+0
+According to the ISTQB Glossary, regression testing is required for what purpose? 
+a. To verify the success of corrective actions. 
+b. To prevent a task from being incorrectly considered completed. 
+c. To ensure that defects have not been introduced by a modification. 
+d. To motivate better unit testing by the programmers. 
+e. ---
+Answer: C
+1.4.1
+
+
+QUESTION 7
+0
+Which of the following is most important to promote and maintain good relationships between testers and developers? 
+a. Understanding what managers value about testing. 
+b. Explaining test results in a neutral fashion. 
+c. Identifying potential customer work-arounds for bugs. 
+d. Promoting better quality software whenever possible. 
+e. ---
+Answer: B
+1.5.1
+
+
+QUESTION 8
+0
+Which of the statements below is the best assessment of how the test principles apply across the test life cycle? 
+a. Test principles only affect the preparation for testing. 
+b. Test principles only affect test execution activities. 
+c. Test principles affect the early test activities such as review. 
+d. Test principles affect activities throughout the test life cycle. 
+e. ---
+Answer: D
+1.1.6, 1.2.3, 1.3.1 and 1.4.1
+
+
+
+QUESTION 9
+0
+What are good practices for testing within the development life cycle? 
+a. Early test analysis and design. 
+b. Different test levels are defined with specific objectives. 
+c. Testers will start to get involved as soon as coding is done. 
+d. A and B above. 
+e. ---
+Answer: D
+2.1.3
+
+QUESTION 10
+0
+Which option best describes objectives for test levels with a life cycle model? 
+a. Objectives should be generic for any test level. 
+b. Objectives are the same for each test level. 
+c. The objectives of a test level don't need to be defined in advance. 
+d. Each level has objectives specific to that level.
+e. --- 
+Answer: D
+2.1.3
+
+QUESTION 11
+0
+Which of the following is a test type? 
+a. Component testing 
+b. Functional testing 
+c. System testing 
+d. Acceptance testing 
+e. ---
+Answer: B
+2.3.1
+
+QUESTION 12
+0
+Which of the following is a nonfunctional quality characteristic? 
+a. Feasibility 
+b. Usability 
+c. Maintenance 
+d. Regression 
+e. ---
+Answer: B
+2.3.3
+
+QUESTION 13
+0
+Which of these is a functional test? 
+a. Measuring response time on an on-line booking system. 
+b. Checking the effect of high volumes of traffic in a call-center system. 
+c. Checking the on-line bookings screen information and the database contents against the information on the letter to the customers. 
+d. Checking how easy the system is to use. 
+e. ---
+Answer: C
+2.3.1
+
+QUESTION 14
+0
+Which of the following is a true statement regarding the process of fixing emergency changes? 
+a. There is no time to test the change before it goes live, so only the best developers should do this work and should not involve testers as they slow down the process. 
+b. Just run the re-test of the defect actually fixed. 
+c. Always run a full regression test of the whole system in case other parts of the system have been adversely affected. 
+d. Re-test the changed area and then use risk assessment to decide on a reasonable subset of the whole regression test to run in case other parts of the system have been adversely affected. 
+e. ---
+Answer: D
+2.4.3
+
+QUESTION 15
+0
+A regression test: 
+a. Is only run once. 
+b. Will always be automated. 
+c. Will check unchanged areas of the software to see if they have been affected. 
+d. Will check changed areas of the software to see if they have been affected. 
+e. ---
+Answer: C
+2.3.5
+
+QUESTION 16
+0
+Non-functional testing includes: 
+a. Testing to see where the system does not function correctly. 
+b. Testing the quality attributes of the system including reliability and usability. 
+c. Gaining user approval for the system. 
+d. Testing a system feature using only the software required for that function. 
+e. ---
+Answer: B
+2.3.1
+
+QUESTION 17
+0
+Beta testing is: 
+a. Performed by customers at their own site. 
+b. Performed by customers at the software developer's site. 
+c. Performed by an independent test team. 
+d. Useful to test software developed for a specific customer or user. 
+e. ---
+Answer: A
+2.2.1
+
+
+
+QUESTION 18
+0
+Which of the following artifacts can be examined by using review techniques? 
+a. Software code 
+b. Requirements specification 
+c. Test designs 
+d. All of the above
+e. ---
+Answer: D
+3.1.1
+
+
+QUESTION 19
+0
+Which statement about the function of a static analysis tool is true? 
+a. Gives quality information about the code without executing it. 
+b. Checks expected results against actual results. 
+c. Can detect memory leaks. 
+d. Gives information about what code has and has not been exercised.
+e. ---
+Answer: A
+3.3.1
+
+
+QUESTION 20
+0
+Which is not a type of review? 
+a. Walkthrough 
+b. Inspection 
+c. Informal review 
+d. Management approval
+e. ---
+Answer: D
+3.2.2
+
+
+
+QUESTION 21
+0
+What statement about reviews is true? 
+a. Inspections are led by a trained moderator, whereas technical reviews are not necessarily. 
+b. Technical reviews are led by a trained leader, inspections are not. 
+c. In a walkthrough, the author does not attend. 
+d. Participants for a walkthrough always need to be thoroughly trained.
+e. ---
+Answer: A
+3.2.2
+
+
+QUESTION 22
+0
+What is the main difference between a walkthrough and an inspection? 
+a. An inspection is led by the authors, whilst a walk through is led by a trained moderator. 
+b. An inspection has a trained leader, whilst a walk through has no leader. 
+c. Authors are not present during inspections, whilst they are during walkthroughs. 
+d. A walkthrough is led by the author, whilst an inspection is led by a trained moderator.
+e. ---
+Answer: D
+3.2.2
+
+
+QUESTION 23
+23
+Which of the following characteristics and types of review processes belong together? 
+a. s = 4, t = 3, u = 2 and 5, v = 1 
+b. s = 4 and 5, t = 3, u = 2, v = 1 
+c. s = 1 and 5, t = 3, u = 2, v = 4 
+d. s = 5, t = 4, u = 3, v = 1 and 2 
+e. ---
+Answer: B
+3.2.2
+
+
+QUESTION 24
+0
+What statement about static analysis is true? 
+a. With static analysis, defects can be found that are difficult to find with dynamic testing. 
+b. Compiling is not a form of static analysis.
+c. When properly performed, static analysis makes functional testing redundant. 
+d. Static analysis finds all faults.
+e. ---
+Answer: A
+3.3.1
+
+
+QUESTION 25
+25
+Which of the following statements about early test design are true and which are false? 
+a. 1 and 3 are true. 2 and 4 are false. 
+b. 2 is true. 1, 3 and 4 are false. 
+c. 2 and 3 are true. 1 and 4 are false. 
+d. 2, 3 and 4 are true. 1 is false.
+e. ---
+Answer: C
+3.1.2
+
+
+QUESTION 26
+0
+Static code analysis typically identifies all but one of the following problems. Which is it? 
+a. Unreachable code 
+b. Undeclared variables 
+c. Faults in the requirements 
+d. Too few comments
+e. ---
+Answer: C
+3.3.2
+
+
+QUESTION 27
+0
+In which document described in IEEE 829 would you find instructions for the steps to be taken for a test including set-up, logging, environment and measurement? 
+a. Test plan 
+b. Test design specification 
+c. Test case specification 
+d. Test procedure specification 
+e. ---
+Answer: D
+4.1.1
+
+
+QUESTION 28
+0
+With a highly experienced tester with a good business background, which approach to defining test procedures would be effective and most efficient for a project under severe time pressure? 
+a. A high-level outline of the test conditions and general steps to take. 
+b. Every step in the test spelled out in detail. 
+c. A high-level outline of the test conditions with the steps to take discussed in detail with another experienced tester. 
+d. Detailed documentation of all test cases and careful records of each step taken in the testing. 
+e. ---
+Answer: A
+4.1.4
+
+
+QUESTION 29
+29
+Put the test cases that implement the following test conditions into the best order for the test execution schedule, for a test that is checking modifications of customers on a database.
+a. 5,4, 2,1, 3, 7, 6 
+b. 4,2,5,1,6,7,3 
+c. 5,4,2,1,7,3,6 
+d. 5,1, 2, 3,4, 7, 6
+e. ---
+Answer: C
+4.1.5
+
+
+QUESTION 30
+0
+Why are both specification-based and structure-based testing techniques useful? 
+a. They find different types of defect. 
+b. Using more techniques is always better. 
+c. Both find the same types of defect. 
+d. Because specifications tend to be unstructured.
+e. ---
+Answer: A
+4.2.1
+
+
+QUESTION 31
+0
+What is a key characteristic of structure-based testing techniques? 
+a. They are mainly used to assess the structure of a specification. 
+b. They are used both to measure coverage and to design tests to increase coverage. 
+c. They are based on the skills and experience of the tester. 
+d. They use a formal or informal model of the software or component.
+e. ---
+Answer: B
+4.2.2
+
+
+QUESTION 32
+0
+Which of the following would be an example of decision-table testing for a financial application applied at the system-test level? 
+a. A table containing rules for combinations of inputs to two fields on a screen. 
+b. A table containing rules for interfaces between components. 
+c. A table containing rules for mortgage applications. 
+d. A table containing rules for chess. 
+e. ---
+Answer: C
+4.3.1
+
+
+QUESTION 33
+33
+Which of the following could be a coverage measure for state transition testing? 
+a. X,YandZ 
+b. V, X, Y and Z 
+c. W,XandY 
+d. V, X and Z
+e. ---
+Answer: D
+4.3.1
+
+
+QUESTION 34
+0
+Postal rates for 'light letters' are 25p up to l0g, 35p up to 50g plus an extra l0p for each additional 25g up to l00g. Which test inputs (in grams) would be selected using equivalence partitioning? 
+a. 8,42,82,102 
+b. 4,15, 65, 92,159 
+c. 10,50,75,100 
+d. 5, 20, 40, 60, 80
+e. ---
+Answer: B
+4.3.1
+
+
+QUESTION 35
+35
+Which of the following could be used to assess the coverage achieved for specification-based (black-box) test techniques?
+a. V,W,YorZ 
+b. W,XorY 
+c. V,XorZ 
+d. W, X, Y or Z 
+e. ---
+Answer: B
+4.3.2
+
+
+QUESTION 36
+36
+Which of the following structure-based test design technique would be most likely to be applied to?
+a. 2, 3 and 4 
+b. 2 and 4 
+c. 3 and 4 
+d. 1, 2 and 3 
+e. ---
+Answer: C
+4.4.2
+
+
+QUESTION 37
+37
+Use case testing is useful for which of the following?
+a. P, Q and R 
+b. Q,SandT 
+c. P, Q and S 
+d. R, S and T 
+e. ---
+Answer: A
+4.3.2
+
+
+QUESTION 38
+0
+Which of the following statements about the relationship between statement coverage and decision coverage is correct? 
+a. 100% decision coverage is achieved if statement coverage is greater than 90%. 
+b. 100% statement coverage is achieved if decision coverage is greater than 90%. 
+c. 100% decision coverage always means 100% statement coverage. 
+d. 100% statement coverage always means 100% decision coverage. 
+e. ---
+Answer: C
+4.4.2
+
+
+QUESTION 39
+39
+If you are flying with an economy ticket, there is a possibility that you may get upgraded to business class, especially if you hold a gold card in the airline's frequent flier program. If you don't hold a gold card, there is a possibility that you will get 'bumped' off the flight if it is full and you check in late. This is shown in Figure 4.5. Note that each box (i.e. statement) has been numbered. Three tests have been run: Test 1: Gold card holder who gets upgraded to business class Test 2: Non-gold card holder who stays in economy Test 3: A person who is bumped from the flight What is the statement coverage of these three tests? 
+a. 60% 
+b. 70% 
+c. 80% 
+d. 90% 
+e. ---
+Answer: C
+4.4.4
+
+
+QUESTION 40
+0
+Why are error guessing and exploratory testing good to do? 
+a. They can find defects missed by specification- based and structure-based techniques. 
+b. They don't require any training to be as effective as formal techniques. 
+c. They can be used most effectively when there are good specifications. 
+d. They will ensure that all of the code or system is tested. 
+e. ---
+Answer: A
+4.5.1
+
+
+QUESTION 41
+0
+How do experience-based techniques differ from specification-based techniques? 
+a. They depend on the tester's understanding of the way the system is structured rather than on a documented record of what the system should do. 
+b. They depend on having older testers rather than younger testers. 
+c. They depend on a documented record of what the system should do rather than on an individual's personal view. 
+d. They depend on an individual's personal view rather than on a documented record of what the system should do.
+e. ---
+Answer: D
+4.5.2
+
+ 
+QUESTION 42
+42
+When choosing which technique to use in a given situation, which factors should be taken into account?
+a. V,W,YandZ 
+b. U, V, W and Y 
+c . U,XandY 
+d. V, W and Y 
+e. ---
+Answer: B
+4.6.1
+
+
+QUESTION 43
+43
+Given the state diagram in Figure 4.6, which test case is the minimum series of valid transitions to cover every state? 
+a. SS-S1-S2-S4-S1-S3-ES 
+b. SS-S1-S2-S3-S4-ES 
+c. SS-S1-S2-S4-S1-S3-S4-S1-S3-ES 
+d. SS-S1-S4-S2-S1-S3-ES 
+e. ---
+Answer: A
+4.3.1
+
+
+QUESTION 44
+0
+Why is independent testing important? 
+a. Independent testing is usually cheaper than testing your own work. 
+b. Independent testing is more effective at finding defects. 
+c. Independent testers should determine the processes and methodologies used. 
+d. Independent testers are dispassionate about whether the project succeeds or fails. 
+e. ---
+Answer: B
+5.1.1
+
+
+QUESTION 45
+0
+Which of the following is among the typical tasks of a test leader? 
+a. Develop system requirements, design specifications and usage models. 
+b. Handle all test automation duties. 
+c. Keep tests and test coverage hidden from programmers. 
+d. Gather and report test progress metrics. 
+e. ---
+Answer: D
+5.1.4
+
+
+QUESTION 46
+0
+According to the ISTQB Glossary, what do we mean when we call someone a test manager? 
+a. A test manager manages a collection of test leaders.
+b. A test manager is the leader of a test team or teams. 
+c. A test manager gets paid more than a test leader. 
+d. A test manager reports to a test leader. 
+e. ---
+Answer: B
+5.1
+
+
+QUESTION 47
+0
+What is the primary difference between the test plan, the test design specification, and the test procedure specification? 
+a. The test plan describes one or more levels of testing, the test design specification identifies the associated high-level test cases and a test procedure specification describes the actions for executing a test. 
+b. The test plan is for managers, the test design specification is for programmers and the test procedure specification is for testers who are automating tests. 
+c. The test plan is the least thorough, the test procedure specification is the most thorough and the test design specification is midway between the two. 
+d. The test plan is finished in the first third of the project, the test design specification is finished in the middle third of the project and the test procedure specification is finished in the last third of the project. 
+e. ---
+Answer: A
+5.2.2
+
+
+QUESTION 48
+0
+Which of the following factors is an influence on the test effort involved in most projects? 
+a. Geographical separation of tester and programmers. 
+b. The departure of the test manager during the project. 
+c. The quality of the information used to develop the tests. 
+d. Unexpected long-term illness by a member of the project team. 
+e. ---
+Answer: C
+5.2.3
+
+
+QUESTION 49
+0
+The ISTQB Foundation Syllabus establishes a fundamental test process where test planning occurs early in the project, while test execution occurs at the end. Which of the following elements of the test plan, while specified during test planning, is assessed during test execution? 
+a. Test tasks 
+b. Environmental needs 
+c. Exit criteria 
+d. Test team training 
+e. ---
+Answer: C
+5.2.5
+
+
+QUESTION 50
+50
+Consider the following exit criteria which might be found in a test plan - see image. Which of the following statements is true about whether these exit criteria belong in an acceptance test plan? 
+a. All statements belong in an acceptance test plan. 
+b. Only statement I belongs in an acceptance test plan. 
+c. Only statements I, II, and V belong in an acceptance test plan. 
+d. Only statements I, IV, and V belong in an acceptance test plan. 
+e. ---
+Answer: D
+5.2.7
+
+
+QUESTION 51
+0
+According to the ISTQB Glossary, what is a test level? 
+a. A group of test activities that are organized together. 
+b. One or more test design specification documents. 
+c. A test type. 
+d. An ISTQB certification. 
+e. ---
+Answer: A
+5.2
+
+
+QUESTION 52
+0
+Which of the following metrics would be most useful to monitor during test execution? 
+a. Percentage of test cases written. 
+b. Number of test environments remaining to be configured. 
+c. Number of defects found and fixed. 
+d. Percentage of requirements for which a test has been written. 
+e. ---
+Answer: C
+5.3.1
+
+
+QUESTION 53
+0
+During test execution, the test manager describes the following situation to the project team: '90% of the test cases have been run. 20% of the test cases have identified defects. 127 defects have been found. 112 defects have been fixed and have passed confirmation testing. Of the remaining 15 defects, project management has decided that they do not need to be fixed prior to release.' Which of the following is the most reasonable interpretation of this test status report? 
+a. The remaining 15 defects should be confirmation tested prior to release. 
+b. The remaining 10% of test cases should be run prior to release. 
+c. The system is now ready for release with no further testing or development effort. 
+d. The programmers should focus their attention on fixing the remaining known defects prior to release. 
+e. ---
+Answer: B
+5.3.2
+
+
+QUESTION 54
+0
+In a test summary report, the project's test leader makes the following statement, 'The payment processing subsystem fails to accept payments from American Express cardholders, which is considered a must-work feature for this release.' This statement is likely to be found in which of the following sections? 
+a. Evaluation 
+b. Summary of activities 
+c. Variances 
+d. Incident description 
+e. ---
+Answer: A
+5.3.3
+
+
+QUESTION 55
+0
+During an early period of test execution, a defect is located, resolved and confirmed as resolved by re-testing, but is seen again later during subsequent test execution. Which of the following is a testing-related aspect of configuration management that is most likely to have broken down? 
+a. Traceability 
+b. Confirmation testing 
+c. Configuration control 
+d. Test documentation management 
+e. ---
+Answer: C
+5.4.1
+
+
+QUESTION 56
+0
+You are working as a tester on a project to develop a point-of-sales system for grocery stores and other similar retail outlets. Which of the following is a product risk for such a project? 
+a. The arrival of a more-reliable competing product on the market. 
+b. Delivery of an incomplete test release to the first cycle of system test. 
+c. An excessively high number of defect fixes fail during re-testing. 
+d. Failure to accept allowed credit cards. 
+e. ---
+Answer: D
+5.5.1
+
+
+QUESTION 57
+0
+A product risk analysis meeting is held during the project planning period. Which of the following determines the level of risk? 
+a. Difficulty of fixing related problems in code 
+b. The harm that might result to the user 
+c. The price for which the software is sold 
+d. The technical staff in the meeting 
+e. ---
+Answer: B
+5.5.2
+
+
+QUESTION 58
+0
+You are writing a test plan using the IEEE 829 template and are currently completing the Risks and Contingencies section. Which of the following is most likely to be listed as a project risk? 
+a. Unexpected illness of a key team member 
+b. Excessively slow transaction-processing time 
+c. Data corruption under network congestion 
+d. Failure to handle a key use case 
+e. ---
+Answer: A
+5.5.3
+
+
+QUESTION 59
+0
+You and the project stake-holders develop a list of product risks and project risks during the planning stage of a project. What else should you do with those lists of risks during test planning? 
+a. Determine the extent of testing required for the product risks and the mitigation and contingency actions required for the project risks. 
+b. Obtain the resources needed to completely cover each product risk with tests and transfer responsibility for the project risks to the project manager. 
+c. Execute sufficient tests for the product risks, based on the likelihood and impact of each product risk and execute mitigation actions for all project risks. 
+d. No further risk management action is required at the test planning stage. 
+e. ---
+Answer: A
+5.5.5
+
+
+QUESTION 60
+0
+According to the ISTQB Glossary, a product risk is related to which of the following? 
+a. Control of the test project 
+b. The test object 
+c. A single test item 
+d. A potential negative outcome 
+e. ---
+Answer: B
+5.5
+
+QUESTION 61
+0
+In an incident report, the tester makes the following statement, At this point, I expect to receive an error message explaining the rejection of this invalid input and asking me to enter a valid input. Instead the system accepts the input, displays an hourglass for between one and five seconds and finally terminates abnormally, giving the message, "Unexpected data type: 15. Click to continue." ' This statement is likely to be found in which of the following sections of an IEEE 829 standard incident report? 
+a. Summary 
+b. Impact 
+c. Item pass/fail criteria 
+d. Incident description 
+e. ---
+Answer: D
+5.6.1
+
+
+QUESTION 62
+0
+According to the ISTQB Glossary, what do we call a document that describes any event that occurred during testing which requires further investigation? 
+a. A bug report 
+b. A defect report 
+c. An incident report 
+d. A test summary report 
+e. ---
+Answer: C
+5.6
+
+
+QUESTION 63
+0
+A product risk analysis is performed during the planning stage of the test process. During the execution stage of the test process, the test manager directs the testers to classify each defect report by the known product risk it relates to (or to 'other'). Once a week, the test manager runs a report that shows the percentage of defects related to each known product risk and to unknown risks. What is one possible use of such a report? 
+a. To identify new risks to system quality. 
+b. To locate defect clusters in product subsystems. 
+c. To check risk coverage by tests. 
+d. To measure exploratory testing. 
+e. ---
+Answer: A
+5.3, 5.5, 5.6
+
+
+QUESTION 64
+0
+Which tools help to support static testing? 
+a. Static analysis tools and test execution tools. 
+b. Review process support tools, static analysis tools and coverage measurement tools. 
+c. Dynamic analysis tools and modeling tools. 
+d. Review process support tools, static analysis tools and modeling tools. 
+e. ---
+Answer: D
+6.1.1
+
+
+QUESTION 65
+0
+Which test activities are supported by test harness or unit test framework tools? 
+a. Test management and control. 
+b. Test specification and design. 
+c. Test execution and logging. 
+d. Performance and monitoring. 
+e. ---
+Answer: C
+6.1.1
+
+
+QUESTION 66
+0
+What are the potential benefits from using tools in general to support testing? 
+a. Greater quality of code, reduction in the number of testers needed, better objectives for testing. 
+b. Greater repeatability of tests, reduction in repetitive work, objective assessment. 
+c. Greater responsiveness of users, reduction of tests run, objectives not necessary. 
+d. Greater quality of code, reduction in paperwork, fewer objections to the tests. 
+e. ---
+Answer: B
+6.2.1
+
+
+QUESTION 67
+0
+What is a potential risk in using tools to support testing? 
+a. Unrealistic expectations, expecting the tool to do too much. 
+b. Insufficient reliance on the tool, i.e. still doing manual testing when a test execution tool has been purchased. 
+c. The tool may find defects that aren't there. 
+d. The tool will repeat exactly the same thing it did the previous time. 
+e. ---
+Answer: A
+6.2.1
+
+
+QUESTION 68
+0
+Which of the following are advanced scripting techniques for test execution tools? 
+a. Data-driven and keyword-driven 
+b. Data-driven and capture-driven 
+c. Capture-driven and keyhole-driven 
+d. Playback-driven and keyword-driven 
+e. ---
+Answer: A
+6.2.2
+
+
+QUESTION 69
+0
+Which of the following would NOT be done as part of selecting a tool for an organization? 
+a. Assess organizational maturity, strengths and weaknesses. 
+b. Roll out the tool to as many users as possible within the organization. 
+c. Evaluate the tool features against clear requirements and objective criteria. 
+d. Identify internal requirements for coaching and mentoring in the use of the tool. 
+e. ---
+Answer: B
+6.3.1
+
+
+QUESTION 70
+0
+Which of the following is a goal for a proof-of-concept or pilot phase for tool evaluation? 
+a. Decide which tool to acquire. 
+b. Decide on the main objectives and requirements for this type of tool. 
+c. Evaluate the tool vendor including training, support and commercial aspects. 
+d. Decide on standard ways of using, managing, storing and maintaining the tool and the test assets
+e. ---
+Answer: D
+6.3.2

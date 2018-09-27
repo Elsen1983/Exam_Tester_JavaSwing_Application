@@ -1,0 +1,452 @@
+QUESTIONNUMBER 40
+
+QUESTION 1
+0
+Which of the following statements BEST describes one of the seven key principles of software testing? 
+Automated tests avoid exhauustive testing better than manual tests. 
+With sufficient effort and tool spport, exhaustive testing is feasible for all software. 
+It is normally impossible to test all input/output combinations for a software system. 
+The purpose of testing is to demonstrate the absence of defects. 
+---
+Answer: B
+"Testing everything (all combinations of inputs and preconditions) is not feasible except for trivial cases". 
+
+
+QUESTION 2
+0
+Which of the following statements is the MOST valid goal for a test team?  
+To determine whether enough component tests were executed within system testing. 
+To detect as many failures as possible so that defects can be identified and corrected. 
+To prove that all defects are identified. 
+To prove that any remaining defect will not cause any failures. 
+---
+Answer: B,D
+This is the main role of a test team. 
+
+QUESTION 3
+0
+Which of these tasks would you expect to be performed during the Test Analysis and Design phase of the Fundamental Test Process? 
+Defining test objectives 
+Reviewing the test basis 
+Creating test suites from test procedures 
+Analyzing lessons learned for process improvement 
+---
+Answer: B
+This activity is performed during "Test Analysis and Design" phase (section 1.4.2) 
+
+QUESTION 4
+0
+Below is a list of problems that can be observed during testing or in production. Which of these problems is a failure? 
+The product crashed when the user selected an option in a dialog box. 
+One source code file included in the build has the wrong version. 
+The computation algorithm used wrong input variables. 
+The developer misinterpreted the requirement for the algorithm. 
+---
+Answer: A
+A failure is an external manifestation of a defect. A crash is clearly noticeable by user.
+
+QUESTION 5
+0
+Which of the following attitudes, qualifications or actions would lead to problems (or conflict) within mixed teams of testers and developers, when observed in reviews and tests? 
+Testers and developers are curious and focused on finding defects. 
+Testers and developers are sufficiently qualified to find failures and defects. 
+Testers and developers communicate defects as criticism of people, not as criticism of the software product. 
+Testers expect that there might be defects in the software product which the developers have not found and fixed. 
+---
+Answer: C
+According to the syllabus, testers and developers should cooperate, and communicating defects as criticism of people would lead to conflict inside the team. 
+
+QUESTION 6
+0
+Which of the following statements are TRUE? A:Software testing may be required to meet legal or contractual requirements. B:Software testing is mainly needed to improve the quality of the product released by the developers. C:Rigorous testing and fixing of found defects could help reduce the risk of problems occurring in an operational environment. D:Rigorous testing is sometimes used to prove that all failures have been found. 
+A, B and C are true; D is false 
+A is true; B, C, and D are false 
+A and C are true; B and D are false 
+C and D are true; A and B are false 
+---
+Answer: A
+A-CORRECT:Software testing may be required to meet legal or contractual requirements. B-CORRECT:Software testing is mainly needed to improve the quality of the product released by the developers. C-CORRECT:One of the main aims of software testing is to reduce the risk of problems occurring in an operational environment. D-WRONG:It is impossible to prove that all failures have been found. 
+
+QUESTION 7
+0
+Which of the following statements correctly describes the difference between testing and debugging? 
+Testing identifies the source of defects; debugging analyzes the faults and proposes prevention activities. 
+Dynamic testing shows failures caused by defects; debugging finds, analyzes, and removes the causes of failures in the software. 
+Testing removes faults; debugging identifies the causes of failures. 
+Dynamic testing prevents the causes of failures; debugging removes the failures. 
+---
+Answer: B
+Dynamic testing shows failures caused by defects; debugging finds, analyzes, and removes the causes of failures in the software.
+
+QUESTION 8
+0
+Which of the following statements BEST describes non-functional testing? 
+Non-functional testing is the process of testing an integrated system to verify that it meets specified requirements. 
+Non-functional testing is the process of testing to determine system compliance with coding standards. 
+Non-functional testing is testing without reference to the internal structure of a system. 
+Non-functional testing is testing system attributes, such as usability, reliability, or maintainability. 
+---
+Answer: D
+Testing system attributes, such as usability, reliability, or maintainability is non-functional testing 
+
+QUESTION 9
+0
+When working with software development models, what is it important to do? 
+If needed, adapt the models to project and product characteristics. 
+Choose the waterfall model, because it is the most proven model. 
+Start with the V-model, and then move to either the iterative or the incremental model. 
+Change the organization to fit the model, not vice versa. 
+---
+Answer: A
+Models provide general guidelines - not an accurate and step-by-step process that has to be followed to the letter. 
+
+QUESTION 10
+0
+Which of the following is a characteristic of good testing and applies to any software development life cycle model? 
+Acceptance testing is always the final test level to be applied. 
+All test levels are planned and completed for each developed feature. 
+Testers are involved as soon as the first piece of code can be executed. 
+For every development activity there is a corresponding testing activity. 
+---
+Answer: D
+"In any life cycle model, there are several characteristics of good testing: For every development activity there is a corresponding testing activity." (Section 2.1.3) 
+
+QUESTION 11
+0
+Which of the following is an example of maintenance testing? 
+To test corrected defects during development of a new system. 
+To test enhancements to an existing operational system. 
+To handle complaints about system quality during user acceptance testing. 
+To integrate functions during the development of a new system. 
+---
+Answer: B
+Testing the system's ability to perform after an environment change is considered "maintenance testing". 
+
+QUESTION 12
+0
+Which of the following statements are TRUE? A:Regression testing and re-testing are the same. B:Regression tests show if all failures have been resolved. C:Regression tests are good candidates for test automation. D:Regression tests are performed to uncover defects as a result of changes in the program. E:Regression tests should not be performed during integration testing. 
+A and B are true 
+A, C and E are true 
+C and D are true 
+B, D, and E are true 
+---
+Answer: C
+C-CORRECT: Regression test suites are run many times and generally evolve slowly, so regression testing is a strong candidate for automation.(Section 2.3.4); D-CORRECT: This is the definition of regression tests.(See Section 2.3.4.) 
+
+QUESTION 13
+0
+Which of the following statements comparing component testing and system testing is TRUE? 
+Component testing verifies the functionality of software modules, program objects, and classes that are separately testable, whereas system testing verifies interfaces between components and interactions between different parts of the system. 
+Test cases for component testing are usually derived from component specifications, design specifications, or data models, whereas test cases for system testing are usually derived from requirement specifications, functional specifications, or use cases. 
+Component testing only focuses on functional characteristics, whereas system testing focuses on functional and non-functional characteristics. 
+Component testing is the responsibility of the testers, whereas system testing typically is the responsibility of the users of the system. 
+---
+Answer: B
+---
+
+QUESTION 14
+0
+Which of the following describes the main phases of a formal review? 
+Initiation, status, individual preparation, review meeting, rework, follow up 
+Planning, individual preparation, review meeting, rework, closure, follow up 
+Planning, kick off, individual preparation, review meeting, rework, follow up 
+Individual preparation, review meeting, rework, closure, follow up, root cause analysis 
+---
+Answer: C
+The main phases of a formal review are planning, kick off, individual preparation, review meeting, rework, follow up.
+
+QUESTION 15
+0
+Which of the review types below is the BEST option to choose for reviewing safety critical components in a software project? 
+Informal Review 
+Peer Review 
+Inspection 
+Walkthrough 
+---
+Answer: C
+For reviewing safety critical components in a software project a more formal, documented review is needed.
+
+QUESTION 16
+0
+Which of the following statements about tool-supported static analysis is FALSE? 
+Tool-supported static analysis can be used as a preventive measure with appropriate processes in place. 
+Tool-supported static analysis can find defects that are not easily found by dynamic testing. 
+Tool-supported static analysis can result in cost savings by finding defects early. 
+Tool-supported static analysis is a good way to force failures into the software. 
+---
+Answer: D
+D-CORRECT:During static analysis no failures are found, because the code is not running. 
+
+QUESTION 17
+17
+One of the test goals for your project is to have 100% decision coverage. The following three tests have been executed for the control flow graph shown below. 1-Test A covers path: A, B, D, E, G ; 2-Test B covers path: A, B, D, E, F, G ; 3-Test C covers path: A, C, F, C, F, C, F, G ; Which of the following statements related to the decision coverage goal is TRUE? 
+Decision D has not been tested completely. 
+100% decision coverage has been achieved. 
+Decision E has not been tested completely. 
+Decision F has not been tested completely. 
+---
+Answer: A
+In the diagram there are following four conditions: A, D, E. F. Condition A is covered (A->B and A->C), condition E is covered (E->G and E->F), condition F is covered (F->C and F->G). Condition D is not covered, there is only D->E and D->F is not covered. 
+
+QUESTION 18
+0
+A defect was found during testing: While receiving customer data from a server the system crashed. The defect was fixed by correcting the code that checked the network availability during data transfer. The existing test cases covered 100% of all statements of the corresponding module. To verify the fix and to ensure more extensive coverage, some new tests were designed and added to the test suite and executed. So:What types of testing are described above? Functional testing,Structural testing,Re-testing, Performance testing 
+A and B, but not C and D 
+A and C, but not B and D 
+A, B, and C, but not D 
+B, C, and D, but not A 
+---
+Answer: C
+A.-is true. Receiving customer data is typical functional testing. B.-is true. In the problem description it was stated, "The existing test cases covered 100% of all statements of the corresponding module"; statement testing is structural testing. C.-is true. In the problem description it was stated, "To verify the fix and to ensure more extensive coverage, some new tests were designed and added to the test suite and executed", so this is a retest. D.-is false. In the problem description there is no information about performance testing. 
+
+QUESTION 19
+19
+Which of the following statements about the given state transition diagram and table of test cases is TRUE? 
+The given test cases can be used to derive both valid and invalid transitions in the state transition diagram. 
+The given test cases represent all possible valid transitions in the state transition diagram. 
+The given test cases represent only some of the valid transitions in the state transition diagram. 
+The given test cases represent sequential pairs of transitions in the state transition diagram. 
+---
+Answer: B
+Proposed test cased covered all five possible single valid transitions in the given state diagram (S1- >S2, S2->S1, S2->S3, S3->S2, S3->S1). 
+
+QUESTION 20
+0
+Which of the following statements for the equivalence partitioning test technique are TRUE?  Equivalence partition testing...  A- divides possible inputs into classes where all elements are expected to cause the same behavior.  B- uses both valid and invalid partitions.  C- must include at least two values from every equivalence partition.  D- can be used only for testing equivalence partition inputs from a Graphical User Interface. 
+A, B, and D are true; C is false 
+A is true; B, C and D are false 
+B and C are true; A and D are false 
+A and B are true; C and D are false
+--- 
+Answer: D
+Equivalence partitions divide possible inputs into classes where all elements are expected to cause the same behavior and uses both valid and invalid partitions. What more it is enough to use one value from each class. Introducing input from GUI is possible, but is not the best method.
+
+QUESTION 21
+0
+Which of the following options lists techniques categorized as Black Box design techniques? 
+Equivalence Partitioning, Decision Table testing, State Transition testing, and Boundary Value analysis 
+Equivalence Partitioning, Decision Table testing, Statement coverage, Use Case Based testing 
+Equivalence Partitioning, Decision Coverage testing, Use Case Based testing 
+Equivalence Partitioning, Decision Coverage testing, Boundary Value analysis
+--- 
+Answer: A
+A is CORRECT - all four are black box tests techniques. See section 4.3. 
+
+QUESTION 22
+0
+An employee's bonus is to be calculated. It cannot be negative, but it can be calculated down to zero. The bonus is based on the length of employment. The categories are: less than or equal to 2 years, more than 2 years but less than 5 years, 5 or more years, but less than10 years, 10 years or longer. Depending on the length of employment, an employee will get different levels of bonus. How many valid equivalence partitions are needed to test the calculation of the bonus? 
+3
+5
+2
+4
+---
+Answer: D
+D is CORRECT - The partitions follow the description in the question: 0 < employment time <= 2 ; 2 < employment time < 5 ; 5 <= employment time < 10 ; 10 <= employment time 
+
+QUESTION 23
+0
+Which of the following statements about the benefits of deriving test cases from use cases are true and which are false?  A-Deriving test cases from ??? use cases is helpful for system and acceptance testing. ; B-Deriving test cases from ??? use cases is helpful only for automated testing. ; C-Deriving test cases from ??? use cases is helpful for component testing. ; D-Deriving test cases from ??? use cases is helpful for integration testing. 
+A and D are true; B and C are false 
+A is true; B, C, and D are false 
+B and D are true; A and C are false 
+A, C, and D are true; B is false 
+---
+Answer: A
+Sentence A is CORRECT - Use cases describe how users interact with the completed system, therefore are best fitted for defining system-level tests. Additionally, "Use cases are very useful for designing acceptance tests with customer/user participation." (Section 4.3.5) ; Sentence B is WRONG - Use cases can be executed manually, not just automatically. ; Sentence C is WRONG - at the component level we derive test cases to increase code coverage. These are derived mostly by looking at the code, not by definition of a use case which will eventually exercise a certain piece of the code. ; Sentence D is CORRECT - "[use cases] also help uncover integration defects caused by the interaction and interference of different components" (Section 4.3.5) 
+
+QUESTION 24
+0
+Which of the options below would be the BEST basis for testing using fault attacks? 
+Experience, defect and failure data; knowledge about software failures 
+Risk identification performed at the beginning of the project 
+Use Cases derived from business flows by domain experts 
+Expected results from comparison with an existing system 
+---
+Answer: A
+A is CORRECT - "These defect and failure lists can be built based on experience, available defect and failure data, and from common knowledge about why software fails." (Section 4.5) 
+
+QUESTION 25
+0
+You are working on a project that has poor specifications and time pressure. Which of the following test techniques would be the best test approach to use? 
+Use Case Testing 
+Statement Testing 
+Exploratory Testing 
+Decision Testing 
+---
+Answer: C
+C is CORRECT - exploratory testing is a good idea when there is poor documentation and time pressure 
+
+QUESTION 26
+0
+Which of the following test techniques is a white-box technique? 
+Decision Testing 
+Boundary Value Analysis 
+Equivalence Partitioning 
+State Transition Testing 
+---
+Answer: A
+A is CORRECT - decision testing is a white box technique 
+
+QUESTION 27
+27
+Which test technique has been applied in order to determine test cases 1 through 6? 
+Boundary Value Analysis 
+State Transition Testing 
+Use Case Testing 
+Decision Table Testing 
+---
+Answer: A
+A is CORRECT- given values (0,1,INT_MAX -1, INT_MAX) are typical border values 
+
+QUESTION 28
+28
+Which test cases could be eliminated in the above decision table because the test case wouldn't occur in a real situation? 
+T1 and T2 
+T3 and T4 
+T7 and T8 
+T5 and T6 
+---
+Answer: D
+In the test cases one should infer from the conditions. In the test cases T5 and T6 the situation is described, where the target is reached, however, was not agreed. Since this situation can´t occur, therefore we can eliminate the corresponding test cases. 
+
+QUESTION 29
+0
+Which of the following BEST describes how tasks are divided between the test manager and the tester? 
+The test manager plans testing activities and chooses the standards to be followed, while the tester chooses the tools and controls to be used. 
+The test manager plans, organizes, and controls the testing activities, while the tester specifies and executes tests. 
+The test manager plans, monitors, and controls the testing activities, while the tester designs tests and decides about the approval of the test object. 
+The test manager plans and organizes the testing, and specifies the test cases, while the tester prioritizes and executes the tests. 
+---
+Answer: B
+B is CORRECT- see section 5.1.2 
+
+QUESTION 30
+0
+Which of the following can be categorized as a product risk? 
+Low quality of requirements, design, code and tests. 
+Political problems, and delays in especially complex areas in the product. 
+Error-prone areas, potential harm to the user, poor product characteristics. 
+Problems in defining the right requirements, potential failure areas in the software or system. 
+---
+Answer: C
+C is CORRECT- all items are product risks (See Syllabi Section 5.5.2) 
+
+QUESTION 31
+0
+Which of the following are typical exit criteria from testing? 
+Test coverage measures, reliability measures, test cost, schedule, state of defect correction and residual risks 
+Test coverage measures, reliability measures, degree of tester independence, and product completeness 
+Test coverage measures, reliability measures, test cost, availability of testable code, time to market, and product completeness 
+Time to market, residual defects, tester qualification, degree of tester independence, test coverage measures and test cost 
+---
+Answer: A
+A is CORRECT- See section 5.2.4 
+
+QUESTION 32
+32
+Which of the following options structures the test execution schedule according to the requirement dependencies? 
+R3 - > R2 - > R1 - > R7 - > R 5 - > R 6 - > R4 
+R2 - > R5 - > R6 - > R4 - > R 7 - > R 1 - > R3 
+R1 - > R 3 - > R2 - > R5 - > R 6 - > R 4 - > R7 
+R1 -> R2 -> R5 -> R6 -> R3 -> R4-> R7 
+---
+Answer: C
+C is CORRECT- the tests are specified in a cadence that takes the dependencies into account. 
+
+QUESTION 33
+0
+Which of the following is a possible benefit of independent testing? 
+More work gets done because testers do not disturb the developers all the time. 
+Independent testers tend to be unbiased and find different defects than the developers. 
+Independent testers do not need extra education and training. 
+Independent testers reduce the bottleneck in the incident management process. 
+---
+Answer: B
+B is CORRECT- that is one of the reasons for independence 
+
+QUESTION 34
+0
+Which of the following is a project risk? 
+Skill and staff shortages 
+Poor software characteristics (e.g. usability) 
+Failure-prone software delivered 
+Possible reliability defect (bug) 
+---
+Answer: A
+A is CORRECT- skill and staff shortages is typical project risk 
+
+QUESTION 35
+0
+As a test manager, you are asked for a test summary report. Concerning test activities, and according to the IEEE 829 Standard. What should be the MOST important information to include in your report? 
+The number of test cases executed and their results. 
+An overview of the major testing activities, events and the status with respect to meeting goals 
+Overall evaluation of each development work item 
+Training taken by members of the test team to support the test effort 
+---
+Answer: B
+B is CORRECT - The test summary report must include information about the major testing activities, events and the status with respect to meeting goals. 
+
+QUESTION 36
+0
+You are a tester in a safety-critical software development project. During execution of a test, you find out that one of your test cases failed, causing you to write an incident report. According to the IEEE Std. 829. What should you consider to be the MOST important information to include in your incident report? 
+Impact, incident description, date and your name 
+Unique ID for the report, special requirements needed and the person who caused the defect 
+Transmitted items, your name and your feelings about the possible root cause of the defect 
+Incident description, development environment and expected results of testing 
+---
+Answer: A
+A is CORRECT- The most important information that should be included in an incident report for critical software is impact. 
+
+QUESTION 37
+37
+From the list above, which are the recommended principles for introducing a test tool to an organization? Select ONE option. 
+1, 3, 4, 5 
+2, 5, 6 
+2, 3, 4, 7 
+1, 6, 7 
+---
+Answer: C
+SENTENCE 1 is incorrect - It is recommended to first do a pilot deployment, before rolling out to the entire organization (Section 6.3) ; SENTENCE 2 is correct - See above ; SENTENCE 3 is correct - "Evaluate how the tool fits with existing processes and practices, and determine what would need to change" (Section 6.3) ; SENTENCE 4 is correct - Provision of training is one of the success factors for deployment (Section 6.3) ; SENTENCE 5 is incorrect - If you let everyone to decide how to use the tool, there will be a mess. "Defining usage guidelines" is one of the success factors for deployment (Section 6.3) ; SENTENCE 6 is incorrect - The cost of deploying a tool is more than just the acquisition cost of the tool. Failing to realize this is one of the risks associated with tool deployment (Section 6.1) ; SENTENCE 7 is correct - "Gathering lessons learned from all teams" is one of the success factors for deployment (Section 6.3) 
+
+QUESTION 38
+0
+Which of the following BEST describes a characteristic of a keyword-driven test execution tool? 
+A table with test input data, action words, and expected results controls execution of the system under test 
+Actions of testers are automated using a script that is rerun several times. 
+Actions of testers are automated using a script that is run with several sets of test input data. 
+The ability to log test results, and compare them against the expected results stored in a text file 
+---
+Answer: A
+A is CORRECT- "In a keyword-driven testing approach, the spreadsheet contains keywords describing the actions to be taken (also called action words), and test data". (Section 6.2.3) 
+
+QUESTION 39
+0
+Which of the following is NOT a goal of a pilot project for tool evaluation? 
+To evaluate how the tool fits with existing processes and practices 
+To determine use, management, storage, and maintenance of the tool and testware 
+To assess whether the benefits will be achieved at reasonable cost 
+To reduce the defect rate in the pilot project 
+---
+Answer: D
+D is CORRECT- Reducing the number of defects is not the goal of a pilot project. 
+
+QUESTION 40
+0
+A software development and test organization would like to achieve the test efficiency improvement goals listed below. Which would best be supported by a test management tool? 
+Enable traceability between requirements, tests, and defects (bugs) 
+Optimize the ability of tests to identify failures 
+Resolve defects faster 
+Automate a selection of test cases for execution 
+---
+Answer: A
+A is CORRECT- Because traceability between requirements and testing is a functionality of a test management tool. 
+
+
+
+
+
+
+
+
+
+

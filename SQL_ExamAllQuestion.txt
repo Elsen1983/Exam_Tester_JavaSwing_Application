@@ -1,0 +1,1303 @@
+QUESTIONNUMBER 130
+
+QUESTION 1
+0
+The terms “bitmap”, “b-tree”, and “hash” refer to which type of database structure?
+View
+Function
+Index
+Stored procedure
+Trigger
+Answer: C
+
+QUESTION 2
+0
+One reason to add an index is to:
+Decrease storage space.
+Increase database security.
+Improve performance of select statements.
+Improve performance of insert statements.
+---
+Answer: C
+
+QUESTION 3
+3
+You have a table that contains the following data. You break the table into the following two tables. This process is referred to as:
+defragmentation
+normalization
+fragmentation
+denormalization
+---
+Answer: B
+
+QUESTION 4
+4
+You have a table that contains the following data. Which database term is used to describe the relationship between ProductID and ProductCategory?
+Cohort
+Relationally dependent
+Deterministic
+Functionally dependent
+Compositional
+Answer: D
+
+QUESTION 5
+0
+Which key uniquely identifies a row in a table?
+foreiqn
+primary
+local
+superkey
+---
+Answer: B
+
+QUESTION 6
+6
+Which statement creates a composite key?
+Option A
+Option B
+Option C
+Option D
+---
+Answer: D
+
+QUESTION 7
+0
+At 3:00 P.M. (1500 hours), you create a backup of your database. At 4:00 P.M. (1600 hours), you create a table named Customer and import data into the table. At 5:00 P.M. (1700 hours), your server fails. You run a script to apply only the 3:00 P.M. backup to your database. What is the result of the script?
+The Customer table no longer exists.
+The Customer table is unaffected.
+The Customer table exists but has no data.
+The script fails.
+---
+Answer: A
+
+QUESTION 8
+0
+In which situation do you need to perform a restore on a database?
+when data becomes corrupted in the database
+when you need to roll back a transaction
+when you encounter an error in your application
+when data needs to be deleted from the database
+---
+Answer: A
+
+QUESTION 9
+0
+Which command should you use to give a user permission to read the data in a table?
+ALLOW SELECT
+LET READ
+PERMIT READ
+GRANT SELECT
+---
+Answer: D
+
+QUESTION 10
+0
+You need to enable a new employee to authenticate to your database. Which command should you use?
+ALLOW USER
+CREATE USER
+ADD USER
+INSERT USER
+ALTER USER
+Answer: B
+
+QUESTION 11
+0
+Which keyword can be used in a create table statement?
+ORDER BY
+DISTINCT
+GROUP BY
+UNIQUE
+---
+Answer: D
+
+QUESTION 12
+0
+You need to store product quantities, and you want to minimize the amount of storage space that is used. Which data type should you use?
+INTEGER
+DOUBLE
+COUNT
+FLOAT
+---
+Answer: A
+
+QUESTION: 13
+13
+Which statement will result in the creation of an index?
+Option A
+Option B
+Option C
+Option D
+---
+Answer: A
+
+QUESTION 14
+14
+You have the following table definition: CREATE TABLE Road (RoadID INTEGER NOT NULL, Distance INTEGER NOT NULL) The Road table contains the following data: You execute the following statement: INSERT INTO Road VALUES (1234, 36) What is the result?
+An error stating that NULL values are not allowed
+A new row in the table
+An error stating that duplicate IDs are not allowed
+A syntax error
+---
+Answer: B
+
+QUESTION 15
+0
+You need to store product names that vary from three to 30 characters. You also need to minimize the amount of storage space that is used. Which data type should you use?
+VARCHAR (3, 30)
+CHAR (3, 30)
+VARCHAR (30)
+CHAR (30)
+---
+Answer: C
+
+QUESTION 16
+0
+One reason to create a stored procedure is to:
+Improve performance.
+Minimize storage space.
+Bypass case sensitivity requirements.
+Give the user control of the query logic.
+---
+Answer: A
+
+QUESTION 17
+0
+Which permission does a user need in order to run a stored procedure?
+EXECUTE
+ALLOW
+CALL
+RUN
+---
+Answer: A
+
+QUESTION 18
+0
+You have a table named Product. You create a view that includes all the products from the Product table that are in the Furniture category. You execute a statement on the Product table that deletes all the products in the Furniture category. After you execute the statement, the result set of the view is:
+Empty
+Deleted
+Unchanged
+Archived
+---
+Answer: A
+
+QUESTION 19
+0
+In SQL, an insert statement is used to add a:
+User to a database.
+Row of data to a table.
+Table to a database.
+Column to a table definition.
+---
+Answer: B
+
+QUESTION 20
+0
+You have two tables. Each table has three rows. How many rows will be included in the Cartesian product of these two tables?
+0
+3
+6
+9
+---
+Answer: D
+
+QUESTION 21
+0
+You are writing an SQL statement to retrieve rows from a table. Which data manipulation language (DML) command should you use?
+READ
+SELECT
+OUTPUT
+GET
+---
+Answer: B
+
+QUESTION 22
+0
+Which constraint ensures a unique value in the ID column for each customer?
+DISTINCT
+FOREIGN KEY
+SEQUENTIAL
+PRIMARY KEY
+---
+Answer: D
+
+QUESTION 23
+0
+The component that holds information for a single entry in a table is called a:
+Data type
+Row
+Column
+View
+---
+Answer: B
+
+QUESTION 24
+0
+You execute the following statement: SELECT EmployeeID, FirstName, DepartmentName FROM Employee, Department This type of operation is called a/an:
+Intersection
+Outer join
+Equi-join
+Cartesian product
+---
+Answer: D
+
+QUESTION 25
+0
+Which command should you use to add a column to an existing table?
+MODIFY
+ALTER
+UPDATE
+INSERT
+CHANGE
+Answer: B
+
+QUESTION 26
+26
+You have the following table definition: CREATE TABLE Product (ID INTEGER PRIMARY KEY, Name VARCHAR(20), Quantity INTEGER) The Product table contains the following data. You execute the following statement: SELECT Name FROM Product WHERE Quantity IS NOT NULL How many rows are returned?
+0
+1
+2
+3
+4
+Answer: D
+
+QUESTION 27
+0
+You are writing a select statement to find every product whose name contains a specific character. Which keyword should you use in your where clause?
+FIND
+BETWEEN
+INCLUDES
+LIKE
+---
+Answer: D
+
+QUESTION 28
+0
+A database contains two tables named Customer and Order. You execute the following statement: DELETE FROM Order WHERE CustomerID = 209 What is the result?
+The first order for CustomerID 209 is deleted from the Order table.
+All orders for CustomerID 209 are deleted from the Order table, and CustomerID 209 is deleted from the Customer table.
+All orders for CustomerID 209 are deleted from the Order table.
+CustomerID 209 is deleted from the Customer table.
+---
+Answer: C
+
+QUESTION 29
+29
+You have a table named Product. The Product table has columns for ProductDescription and ProductCategory. You need to change the ProductCategory value for all the spoons in the Product table to 43. Which statement should you use?
+Option A
+Option B
+Option C
+Option D
+---
+Answer: A
+
+QUESTION 30
+0
+You have a table that contains information about all students in your school. Which SQL keyword should you use to change a student's first name in the table?
+UPDATE
+CHANGE
+SELECT
+INSERT
+---
+Answer: A
+
+QUESTION 31
+31
+You need to populate a table named EmployeeCopy with data from an existing table named Employee. Which statement should you use?
+Option A
+Option B
+Option C
+Option D
+---
+Answer: D
+
+QUESTION 32
+32
+You execute the following statemen. This statement is an example of a/an:
+Subquery
+Union
+Outer join
+Cartesian product
+---
+Answer: A
+
+QUESTION 33
+0
+Which keyword would you use in a select statement to return rows that meet a specific condition?
+WHERE
+UNION
+ORDER BY
+FROM
+---
+Answer: A
+
+QUESTION 34
+34
+You have a table named Employee that includes the following columns: EmployeeID , Smp1oyeeName. Which statement should you use to return the number of rows in the table?
+Option A
+Option B
+Option C
+Option D
+---
+Answer: D
+
+QUESTION 35
+35
+The Product table contains the following data. You execute the following statement: SELECT COUNT(*) FROM Product WHERE Quantity > 18. What is the value returned by this statement?
+1
+2
+3
+4
+---
+Answer: C
+
+QUESTION 36
+0
+Which command should you use to remove a table from a database?
+REMOVE TABLE
+UPDATE TABLE
+DROP TABLE
+DELETE TABLE
+---
+Answer: C
+
+QUESTION 37
+0
+You need to store the contact information for each student in your school database. You should store each student's information in a:
+Stored procedure
+Function
+Row
+Variable
+---
+Answer: C
+
+QUESTION 38
+0
+Which category of SQL statements is used to add, remove, and modify database structures?
+Data access language (DAL)
+Data manipulation language (DML)
+Data control language (DCL)
+Data definition language (DDL)
+---
+Answer: D
+
+QUESTION 39
+0
+You have a Customer table and an Order table. You join the Customer table with the Order table by using the CusromerID column. The results include: All customers and their orders, Customers who have no orders. Which type of join do these results represent?
+Complete join
+Partial join
+Inner join
+Outer join
+---
+Answer: D
+
+QUESTION 40
+0
+Data in a database is stored in:
+Tables
+Queries
+Data types
+Stored procedures
+---
+Answer: A
+
+QUESTION 41
+0
+You have a table named Student that contains 100 rows. Some of the rows have a NULL value in the FirstName column. You execute the following statement: DELETE FROM Student. What is the result?
+All rows in the table will be deleted.
+All rows containing a NULL value in the FirstName column will be deleted.
+You will receive an error message.
+All rows and the table definition will be deleted.
+---
+Answer: A
+
+QUESTION 42
+0
+You need to establish a set of permissions that you can routinely assign to new users. What should you create?
+Resource
+Group
+List
+Role
+---
+Answer: D
+
+QUESTION 43
+0
+Which database term is used to describe the process of applying a backup to a damaged or corrupt database?
+Recover
+Restore
+Commit
+Attach
+---
+Answer: B
+
+QUESTION 44
+44
+You need to disable User1's access to view the data in the Customer table. Which statement should you use?
+Option A
+Option B
+Option C
+Option D
+---
+Answer: C
+
+QUESTION 45
+0
+Denormalization is performed in order to:
+Reduce redundancy.
+Eliminate repeating groups.
+Create smaller tables.
+Improve query performance.
+---
+Answer: D
+
+QUESTION 46
+0
+You have a table named Product that contains one million rows. You need to search for product information in the Product table by using the product's unique ID. What will make this type of search more efficient?
+A cursor
+A subquery
+A trigger
+An index
+---
+Answer: D
+
+QUESTION 47
+47
+You have a table named Product that contains the following data. The ProductID column is the primary key. The CategoryID column is a foreign key to a separate table named Category. You execute the following statement: INSERT INTO Product VALUES (3296, ‘Table’, 4444) What is the result?
+a foreign key constraint violation
+a syntax error
+a new row in the Product table
+a primary key constraint violation
+a new row in the Category table
+Answer: D
+
+QUESTION 48
+0
+Which two keys establish a relationship between two tables? (Choose two.)
+candidate
+foreign
+superkey
+local
+primary
+Answer: B,E
+
+QUESTION 49
+0
+One difference between a function and a stored procedure is that a function:
+Must be called from a trigger.
+Must return a value.
+Cannot contain a transaction.
+Cannot accept parameters.
+---
+Answer: B
+
+QUESTION 50
+0
+Which keyword must be included in a create view statement?
+WHERE
+ORDER BY
+UPDATE
+SELECT
+---
+Answer: D
+
+QUESTION 51
+51
+You have a table named Customer. You need to add a new column named District. Which statement should you use?
+Option A
+Option B
+Option C
+Option D
+---
+Answer: D
+
+QUESTION 52
+0
+You need to remove a view named EmployeeView from your database. Which statement should you use?
+DELETE VIEW EmployeeView
+DELETE EmployeeView
+DROP EmployeeView
+DROP VIEW EmployeeView
+---
+Answer: D
+
+QUESTION 53
+0
+A named group of SQL statements that can be executed in a database is called a:
+Subroutine
+Formula
+Stored procedure
+Method
+--
+Answer: C
+
+QUESTION 54
+0
+A view can be used to:
+Save an extra copy of data stored in a separate table.
+Limit access to specific rows or columns of data in a table.
+Ensure referential integrity.
+Save historical data before deleting it from the base table.
+---
+Answer: B
+
+QUESTION 55
+On which database structure does an update statement operate?
+Table
+User
+Trigger
+Role
+---
+Answer: A
+
+QUESTION 56
+56
+You need to list the name and price of each product, sorted by price from highest to lowest. Which statement should you use?
+Option A
+Option B
+Option C
+Option D
+---
+Answer: A
+
+QUESTION 57
+0
+You delete rows in a table named Order. The corresponding rows in the OrderItem table are automatically deleted. This process is an example of a/an:
+Inherited delete
+Cascade delete
+Functional delete
+Waterfall delete
+Domino delete
+Answer: B
+
+QUESTION 58
+58
+Which statement deletes the rows where the employee’s phone number is not entered?
+Option A
+Option B
+Option C
+Option D
+---
+Answer: A
+
+QUESTION 59
+59
+You need to insert two new products into the Product table. The first product is named Book and has an ID of 125. The second product is named Movie and has an ID of 126. Which statement should you use?
+Option A
+Option B
+Option C
+Option D
+---
+Answer: B
+
+QUESTION 60
+0
+You have a table named Employee that includes four columns. You execute the following statement: SELECT * FROM Employee. Which columns are returned?
+all columns
+only the last column
+only the first column
+only the first and last columns
+---
+Answer: A
+
+QUESTION 61
+0
+Which two elements are required to define a column? (Choose two.)
+A name
+A key
+An index
+A data type
+---
+Answer: A,D
+
+QUESTION 62
+0
+What defines the amount of storage space that is allocated to a value in a column?
+format
+key
+data type
+validator
+---
+Answer: C
+
+QUESTION 63
+0
+You are creating a table to store customer data. The AccountNumber column uses values that always consist of one letter and four digits. Which data type should you use for the AccountNumber column?
+CHAR
+BYTE
+DOUBLE
+SMALLINT
+---
+Answer: A
+
+QUESTION 64
+0
+What is one difference between an update statement and a delete statement?
+An update statement can change only one row.
+A delete statement cannot use a where clause.
+An update statement does not remove rows from a table.
+A delete statement works only within a stored procedure.
+---
+Answer: C
+
+QUESTION 65
+0
+You have a Department table and an Employee table in your database. You need to ensure that an employee can be assigned to only an existing department. What should you apply to the Employee table?
+A primary key
+An index
+A foreign key
+A unique constraint
+A data type
+Answer: C
+
+QUESTION 66
+0
+You need to store the first name, last name, and student ID for 100 students. This information will be stored in a table as:
+100 items and three cells.
+100 rows and three columns.
+three rows and 100 columns.
+three items and 100 cells.
+---
+Answer: B
+
+QUESTION 67
+0
+What are three valid data manipulation language (DML) commands? (Choose three.)
+INSERT
+COMMIT
+DELETE
+OUTPUT
+UPDATE
+Answer: A,C,E
+
+QUESTION 68
+0
+You assign User1 a set of permissions that include the WITH GRANT OPTION. The WITH GRANT OPTION enables User1 to:
+request a log of permission use.
+delegate permissions to other users.
+create new database users.
+view other users’ permissions.
+---
+Answer: C
+
+
+QUESTION 69
+0
+Which type of index changes the order in which the data is stored in a table?
+non-sequential
+sequential
+non-clustered
+clustered
+---
+Answer: A
+
+QUESTION 70
+0
+Which statement should you use to remove a foreign key?
+ALTER TABLE
+DELETE TABLE
+DELETE FOREIGN KEY
+ALTER FOREIGN KEY
+---
+Answer: A
+
+QUESTION 71
+0
+First normal form requires that a database excludes:
+Foreign keys
+Composite keys
+Duplicate rows
+Repeating groups
+---
+Answer: D
+
+QUESTION 72
+0
+You execute a statement inside a transaction to delete 100 rows from a table. The transaction fails after only 40 rows are deleted. What is the result in the database?
+The table will be corrupted.
+Forty (40) rows will be deleted from the table.
+The transaction will restart.
+No rows will be deleted from the table.
+---
+Answer: D
+
+QUESTION 73
+0
+You have a table that contains product IDs and product names. You need to write an UPDATE statement to change the name of a specific product to glass. What should you include in the update statement?
+SET ProduetName = ‘glass’
+LET ProduetName = ‘glass’
+EXEC ProduetName = ‘glass’
+ASSIGN ProduetName = ‘glass’
+---
+Answer: A
+
+QUESTION 74
+74
+Your database contains a table named Customer. You need to delete the record from the Customer table that has a CusromerID of 12345. Which statement should you use?
+Option A
+Option B
+Option C
+Option D
+---
+Answer: D
+
+QUESTION 75
+0
+On which database structure does an insert statement operate?
+Role
+Trigger
+User
+Stored procedure
+Table
+Answer: E
+
+QUESTION 76
+0
+You have a table of products with fields for ProductID, Name, and Price. You need to write an UPDATE statement that sets the value in the InStock field to Yes for a specific ProductID. Which clause should you use in your update statement?
+THAT
+WHERE
+GROUP BY
+HAVING
+---
+Answer: B
+
+QUESTION 77
+77
+You have the following table definition: CREATE TABLE Product (ProductID INTEGER, Name VARCHAR(20)). You need to insert a new product. The product’s name is Plate and the product’s ID is 12345. Which statement should you use?
+Option A
+Option B
+Option C
+Option D
+---
+Answer: D
+
+QUESTION 78
+78
+Instructions: For each of the following statements, select Yes if the statement is true. Otherwise, select No. Each correct selection is worth one point.
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Answer: Yes,No,No,Yes
+
+QUESTION 79
+79
+The following graphic shows the components of a SQL Server application. You access the SQL Server application through Internet Explorer. Instructions: Use the drop-down menus to select the answer choice that completes each statement. Each correct selection is worth one point.
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Answer: Client,s01.contoso.com
+
+QUESTION 80
+80
+You have the database table named Cars as defined below. You have the following Structured Query Language (SQL) statement. How many rows are returned by the SQL statement?
+4
+5
+6
+7
+---
+Answer: A
+
+QUESTION 81
+81
+You have a database table named SongInformation as defined below. You need to create a Structured Query Language (SQL) query to retrieve only the names of songs that sold more than 1000 compact discs (CDs). Which query should you use?
+Option A
+Option B
+Option C
+Option D
+---
+Answer: D
+
+QUESTION 82
+82
+The table has the following columns and rows. When volunteer information changes, you must update the table. You need to change Tia’s name to Kimberly. Which statement should you choose?
+Option A
+Option B
+Option C
+Option D
+---
+Answer: D
+
+QUESTION 83
+0
+Use the FROM keyword in a SELECT statement to return rows that meet a specific condition. Instructions: Review the underlined text. If it makes the statement correct, select “No change isneeded.” If the statement is incorrect, select the answer choice that makes the statement correct
+No change is needed
+ORDER BY
+UNION
+WHERE
+---
+Answer: D
+
+QUESTION 84
+0
+You need to combine the results of two queries into a single result that contains all of the rows from both queries. Which Structured Query Language (SQL) statement should you use?
+TRUNCATE
+JOIN
+EXCEPT
+UNION
+---
+Answer: D
+
+QUESTION 85
+0
+The CREATE TABLE command removes one or more table definitions and all data, indexes, triggers, constraints, and permission specifications for those tables. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct
+No change is needed
+DROP TABLE
+TRUNCATE TABLE
+ALTER TABLE
+---
+Answer: B
+
+QUESTION 86
+0
+You accept an IT internship at a local charity. The charity wants you to help them with compliance and auditing requirements. You need to ensure that a column or combination of columns uniquely identifies each row of a table. Which constraint should you define?
+Primary key
+Secondary key
+Foreign key
+Default key
+---
+Answer: A
+
+QUESTION 87
+87
+The following illustration shows the structure of a clustered index in a single partition. Instructions: Use the drop-down menus to select the answer choice that completes each statement Each correct selection is worth one point.
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Answer: First:return_large...,Second:are_accessied_sequentially
+
+QUESTION 88
+88
+You have the following table. Instructions: Use the drop-down menus to select the answer choice that completes each statement. Each correct selection is worth one point.
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Answer: First:clustered_index,Second:non_clustered_index
+
+QUESTION 89
+0
+While attending college, you accept an IT internship at a local charity. The charity needs to report on data that is related and exists in two tables. You need to establish a relationship between the data that is in the two tables. Which constraint should you define?
+Foreign key
+Index key
+Link key
+Default key
+---
+Answer: B
+
+QUESTION 90
+0
+This question requires that you evaluate the underlined text to determine if it is correct. A view can be used to ensure referential integrity. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct
+No change is needed.
+Save an extra copy of data stored in a separate table.
+Limit access to specific rows or columns of data in a table.
+Save historical data before deleting it from the base table.
+---
+Answer: C
+
+QUESTION 91
+91
+You need to set up a database to provide a view of North American mammals. Match the Structured Query Language (SQL) statements to the SQL query. Instructions: To answer, drag the appropriate SQL statement from the column on the left to its place in the SQL query on the right Each SQL statement may be used once, more than once, or not at all. Each correct match is worth one point.
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Answer: CREATE_VIEW.., AS_SELECT...,FROM_Animal...
+
+
+QUESTION 92
+92
+You have a database table that stores information about school attendance. You have a data set that is defined as follows. StudentName must consist of a string of characters. GradeLevel must be only a whole number. DaysAbsent can have one number after the decimal. Match the data types to the column names. Each data type may be used once, more than once, or not at all. Each correct match is worth one point.
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Answer: Varchar, Int, Decimal
+
+QUESTION 93
+93
+Instructions: For each of the following statements, select Yes if the statement is true. Otherwise, select No. Each correct selection is worth one point.
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Answer: No,Yes,Yes
+
+QUESTION 94
+0
+This question requires that you evaluate the underlined text to determine if it is correct. In a database table, each column represents a unique record. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct
+No change is needed
+Table
+Index
+Row
+---
+Answer: D
+
+QUESTION 95
+0
+This question requires that you evaluate the underlined text to determine if it is correct. You have two tables. Each table has three rows. Nine rows will be included in the Cartesian product of these two tables. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement corrector.
+No change is needed
+Zero
+Three
+Six
+---
+Answer: A
+
+QUESTION 96
+0
+You have two tables named Salesperson and Sales. You need to ensure that each record in the Sales table has a valid associated salesperson record in the Salesperson table. Which database object should you add to the Sales table?
+Nonclustered index
+Primary key
+Foreign key
+Clustered index
+---
+Answer: B
+
+QUESTION 97
+97
+Your class project requires that you help a charity set up a website.The website collects information about volunteers. Each volunteer record must be uniquely identified. The following information is stored for each volunteer: Given name Surname Date of birth Phone number Photo You need to create a table to meet the requirements. Match the Structured Query Language SQL statements to the SQL query.
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Answer: INT_NOT_NULL_Primary_key,DATE_NULL,IMAGE_NULL
+
+QUESTION 98
+0
+This question requires that you evaluate the underlined text to determine if it is correct. Use the ALTER statement to add a new table in a database. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
+No change is needed
+UPDATE
+INSERT
+CREATE
+---
+Answer: D
+
+QUESTION 99
+0
+You need to rename a column in a database table. Which data definition language (DDL) statement should you use?
+ALTER
+INSERT
+CREATE
+UPDATE
+---
+Answer: A
+
+QUESTION 100
+100
+You have two database tables as defined below. The first table contains information about students. The second table contains information about courses. The two tables are related by CourseID. Match the CourseName to the StudentName. DRAG DROP
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Press 'Show answer' for the correct answer
+Answer: Reading,Math,Science
+
+QUESTION 101
+0
+This question requires that you evaluate the underlined text to determine if it is correct. Use indexing to create, remove, or change database objects. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
+No change is needed.
+Data manipulation language (DML) statements
+Data definition language (DDL) statements
+A unique constraint
+---
+Answer: C
+
+QUESTION 102
+0
+You need to add rows to a database table. Which Structured Query Language (SQL) keyword should you use?
+JOIN
+INSERT
+CREATE
+UPDATE
+---
+Answer: B
+
+QUESTION 103
+0
+You need to retrieve data from two related database tables based on a column that exists in both tables. Which command should you use in a query?
+INTERSECT
+UNION
+JOIN
+TRUNCATE
+---
+Answer: B
+
+QUESTION 104
+104
+You have a database table that contains the following column. You must insert the following record into the table: Which two Structured Query Language (SQL) statements can you use? (Choose two.)
+Option A
+Option B
+Option C
+Option D
+---
+Answer: B,C
+
+QUESTION 105
+0
+This question requires that you evaluate the underlined text to determine if it is correct. The UNION keyword combines the results of two queries and returns only rows that appear in both result sets. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct
+No change is needed
+INTERSECT
+ALL
+UNION
+---
+Answer: B
+
+QUESTION 106
+106
+You work at a restaurant and they ask you to help them with a data issue. They provide you with the following recipe data. You need to normalize the data to third normal form. How many tables should you create?
+1
+2
+3
+4
+---
+Answer: C
+
+QUESTION 107
+107
+You accept an IT internship at a local charity. The charity has two tables in their data model named Chapter and Language, as defined below: You create a third table named ChapterLanguage to relate the Chapter table and the Language table. You need to select columns from the Chapter and Language tables to create a composite primary key for the ChapterLanguage table. Which two columns should you select? (Choose two.)
+ChapterId
+LanguageId
+Country
+Region
+City
+Answer: A,B
+
+QUESTION 108
+108
+Instructions: For each of the following statements, select Yes if the statement is true. Otherwise, select No. Each correct selection is worth one point.
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Answer: No,Yes,Yes,No
+
+QUESTION 109
+0
+This question requires that you evaluate the underlined text to determine if it is correct. You combine data from three tables into one table. The new table includes redundancy to optimize read performance. The data in the new table has been denormalized. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
+No change is needed
+Normalized
+Truncated
+Indexed
+---
+Answer: A
+
+QUESTION 110
+0
+You need to delete a database table. Which data definition language (DDL) keyword should you use?
+ALTER
+DELETE
+DROP
+TRUNCATE
+---
+Answer: C
+
+QUESTION 111
+0
+This question requires that you evaluate the underlined text to determine if it is correct. Create a query that returns a set of table data by using the UPDATE statement. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
+No change is needed
+INSERT
+REPLACE
+SELECT
+---
+Answer: D
+
+QUESTION 112
+0
+Your class project requires that you help a charity to create a website that registers volunteers. The website must store the following data about the volunteers: Given name Surname Telephone number Email address You need to recommend a correct way to store the data. What do you recommend?
+Create a table that contains columns that are named given name, surname, phone number, and  email.
+Create a table that contains rows that are named given name, surname, phone number, and  email.
+Create a view that contains columns that are named given name surname, phone number, and  email.
+Create a view that contains rows that are named given name surname, phone number, and email.
+---
+Answer: A
+
+QUESTION 113
+0
+This question requires that you evaluate the underlined text to determine if it is correct. Truncate is a database term used to describe the process of applying a backup to a damaged or corrupt database. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement corrector.
+Change is needed
+Commit
+Attach
+Restore
+---
+Answer: D
+
+QUESTION 114
+0
+This question requires that you evaluate the underlined text to determine if it is correct. Use the ALLOW SELECT command to give a user permission to read the data in a table. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct
+No change is needed
+GRANT SELECT
+LET HEAD
+PERMIT READ 
+---
+Answer: B
+
+QUESTION 115
+115
+You have a user that has server roles as defined below. Instructions: Use the drop-down menus to select the answer choice that completes each statement. Each correct selection is worth one point.
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Answer: unlimited,unlimited
+
+QUESTION 116
+116
+The following illustration shows backup strategies that use the simple recovery model and the full recovery model. Instructions: Use the drop-down menus to select the answer choice that completes each statement. Each correct selection is worth one point.
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Answer: more,less
+
+QUESTION 117
+117
+Instructions: For each of the following statements, select Yes if the statement is true. Otherwise, select No. Each correct selection is worth one point.
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Answer: Yes,Yes,No
+
+QUESTION 118
+0
+This question requires that you evaluate the underlined text to determine if it is correct. Views are database objects that contain all of the data in a database. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct
+No change is needed
+Queries
+Stored procedures
+Tables
+---
+Answer: D
+
+QUESTION 119
+119
+You have two tables named Cars and Color as defined below. The two tables are related by ColorId. You run the following SQL statement: select: How many rows does the SQL statement return?
+0
+2
+3
+6
+---
+Answer: C
+
+QUESTION 120
+120
+You accept an IT internship at a local charity. The charity asks you to keep a record of its volunteers by using a database table named Volunteer. When volunteers ask to be removed from mailing lists, the table must be updated. You need to use a transaction to ensure that the database has data integrity and referential integrity. Which statement should you use?
+Option A
+Option B
+Option C
+Option D
+---
+Answer: B
+
+QUESTION 121
+0
+This question requires that you evaluate the underlined text to determine if it is correct. ALTER TABLE removes all rows from a table without logging the individual row deletions. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
+No change is needed
+DROP TABLE
+TRUNCATE TABLE
+CREATE TABLE
+---
+Answer: C
+
+QUESTION 122
+0
+You work at a coffee shop. They ask you to set up a website that stores charges on purchases. You need to recommend a data type in a database table to run financial functions against the charged amounts. Which data type should you recommend?
+Money
+Bit
+Varchar
+Binary
+---
+Answer: C
+
+QUESTION 123
+0
+This question requires that you evaluate the underlined text to determine if it is correct. A row holds information for a single record in a table. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct
+No change is needed
+Column
+Data type
+View
+---
+Answer: A
+
+QUESTION 124
+124
+Instructions: For each of the following statements, select Yes if the statement is true. Otherwise,select No. Each correct selection is worth one point.
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Answer: Yes,Yes,No
+
+QUESTION 125
+0
+This question requires that you evaluate the underlined text to determine if it is correct. Ports 20 and 21 are the default ports to secure a SQL Server. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
+No change is needed
+1433 and 1434
+411 and 412
+67 and 68
+---
+Answer: B
+
+QUESTION 126
+126
+You ate creating a database object named Student to store the following data: Which syntax should you use to create the object?
+Option A
+Option B
+Option C
+Option D
+---
+Answer: A
+
+QUESTION 127
+0
+You develop a database to store data about textbooks. The data must be stored to process at a later time. Which database object should you use to store the data?
+View
+Table
+Function
+Stored procedure
+---
+Answer: B
+
+QUESTION 128
+0
+This question requires that you evaluate the underlined text to determine if it is correct. First normal form requires that a database excludes repeating groups. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
+No change is needed.
+Composite keys
+Duplicate rows
+Foreign keys
+----
+Answer: A
+
+QUESTION 129
+129
+You have two database tables as defined below. The StateID column is unique in the State table. The AddressID column is unique in the Address table. The two tables are related by the StateID column. Instructions: Use the drop-down menus to select the answer choice that completes each statement. Each correct selection is worth one point.
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Press 'Show answer' for correct answer
+Answer: primary_key,foreign_key
+
+
+QUESTION 130
+0
+You have the following SQL query SELECT * FROM dbo.ProAthlete WHERE Salary > 500000 The query takes too much time to return data. You need to improve the performance of the query. Which item should you add to the Salary column?
+Non-null constraint
+Default constraint
+Index
+Foreign key
+---
+Answer: C
